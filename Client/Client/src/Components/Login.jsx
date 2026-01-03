@@ -3,7 +3,7 @@ import React from "react";
 export default function Login() {
   return (
     <div className="min-h-screen bg-[#F6EEDD] flex items-center justify-center px-4">
-      <div className="w-full max-w-5xl bg-white rounded-3xl shadow-xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+      <div className="w-full max-w-5xl bg-white rounded-3xl  shadow-xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
         
         {/* LEFT IMAGE SECTION */}
         <div className="relative hidden md:block">
