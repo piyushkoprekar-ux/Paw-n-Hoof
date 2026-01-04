@@ -52,25 +52,25 @@ const DonationPage = () => {
           </div>
 
           {/* TRUST BADGES */}
-          {/* <div className="flex justify-between text-sm text-gray-600 mt-6">
+          <div className="flex justify-between text-sm text-gray-600 mt-6">
             <span>🔒 Secure SSL</span>
             <span>⭐ Top Rated</span>
             <span>🏛 Tax Exempt</span>
             <span>👁 Private</span>
           </div>
-        </div> */}
+        </div>
 
         {/* RIGHT SECTION */}
-        {/* <div className="bg-white rounded-2xl shadow-lg p-6">
+        <div className="bg-white rounded-2xl shadow-lg p-6">
           <h3 className="text-2xl font-bold mb-1">
             Make a secure donation
           </h3>
           <p className="text-gray-500 mb-4">
             Join 5,000+ donors helping pets today
-          </p> */}
+          </p>
 
           {/* DONATION TYPE */}
-          {/* <div className="flex gap-4 mb-6">
+          <div className="flex gap-4 mb-6">
             <button
               onClick={() => setType("one-time")}
               className={`flex-1 py-2 rounded-lg border ${
@@ -92,10 +92,10 @@ const DonationPage = () => {
             >
               Monthly
             </button>
-          </div> */}
+          </div>
 
           {/* AMOUNT */}
-          {/* <div className="grid grid-cols-3 gap-3 mb-4">
+          <div className="grid grid-cols-3 gap-3 mb-4">
             {[25, 50, 100].map((amt) => (
               <button
                 key={amt}
@@ -115,7 +115,7 @@ const DonationPage = () => {
             type="number"
             placeholder="Other Amount"
             className="w-full border rounded-lg px-3 py-2 mb-6"
-          /> */}
+          />
 
           {/* FORM */}
           <div className="grid grid-cols-2 gap-3 mb-3">
