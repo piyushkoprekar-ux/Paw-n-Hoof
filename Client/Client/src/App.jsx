@@ -1,14 +1,9 @@
-import React from 'react'
-import Home from './Pages/Home'
+import DonationPage from "./Components/Donationpage";
 
 function App() {
   return (
-    <div>
-      
-      <Home />
-    </div>
-  )
+    <DonationPage />
+  );
 }
 
-export default App
-
+export default App;
